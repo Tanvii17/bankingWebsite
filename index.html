@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="loader()">
+
+
+    <div id="loading"></div>
+
+
+    <nav class="navbar navbar-expand-lg  bg-light">
+        <a class="navbar-brand">T D</a>
+        <img src="Images/Bank.jpg" width="26px" height="26px" alt="">
+        <a class="navbar-brand"></a>
+        <a class="navbar-brand">B A N K</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html">Dashboard</a>
+                <a class="nav-link" href="Transaction.php">Get Started</a>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sentence">
+        <h6><b>Guarantee Of Safety!</b></h6>
+    </div>
+    <div class="container-fluid hero-content">
+
+        <div class="main row align-items-center">
+            <div class="section-image">
+                <div class="hero-img-div ml-auto container-fluid">
+                    <img class="MoneyTransfer" src="Images/OnlineMoneyTransfer.png" alt="MoneyTransfer" height="400px">
+                </div>
+            </div>
+            <div class="main-content">
+                <h5>
+                    <b>Task 1: BASIC BANKING SYSTEM</b>
+                </h5>
+                <h6><b>By Tanvi Devi</b></h6>
+                <br>
+                <br>
+                <h5><b>Building, managing and preserving your wealth !</b></h5>
+                <br>
+                <br>
+                <h5>
+                    <b>Initiate Fund Transfer.....</b>
+                </h5>
+                <br>
+                <a class="get-started" href="Transaction.php">Get Started</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="end text-center">
+            <div class="end">
+                <p><a href="https://www.thesparksfoundationsingapore.org">The Sparks Foundation</a></p>
+                <h6>Stay Safe ! Credit Safe !</h6>
+            </div>
+            <div class="socialMedia">
+                <h7>For Any Query Contact :</h7>
+                <a target="_blank" class="gmail" href="mailto:tanvihdevi@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                <a target="_blank" class="Linkedin" href="https://www.linkedin.com/in/tanvi-devi-352865172/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" class="github" href="https://github.com/Tanvii17"><i class="fab fa-github fa-2x"></i></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function loader() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
+
+</body>
+
+</html>

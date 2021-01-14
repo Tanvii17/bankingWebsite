@@ -1,0 +1,92 @@
+    body {
+        font-family: 'sans-serif', serif;
+        text-decoration: none;
+    }
+    /* navbar css starts here  */
+    
+    .bg-light {
+        background-color: #6ef1b0!important;
+        height: 45px;
+    }
+    
+    .navbar-brand {
+        font-family: 'sans-serif';
+        font-size: 1.5rem;
+        color: #080808fa!important;
+    }
+    
+    .nav-link {
+        color: #0e0d0d!important;
+        background-color: #f3f1f1;
+        font-family: 'sans-serif', serif;
+        border: none;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 2px 2px;
+        border-radius: 4px;
+    }
+    
+    .nav-link:hover {
+        color: #f3f1f1!important;
+        background-color: #0e0d0d;
+    }
+    /* navbar css ends here  */
+    
+    .my-info {
+        font-family: 'serif', sans-serif;
+        margin-top: 3%;
+        text-decoration: none;
+    }
+    
+    .sendMoney {
+        text-decoration: none;
+        padding: 1rem 1.2rem;
+        background-color: rgb(154, 240, 233)!important;
+        color: rgb(15, 15, 15)!important;
+        margin-left: 5px;
+        padding: 0.75rem;
+        transition: all 0.3s;
+    }
+    
+    .sendMoney:hover {
+        background-color: rgba(248, 246, 246, 0) !important;
+        color: rgb(72, 233, 219)!important;
+    }
+    
+    .Transaction {
+        text-decoration: none;
+        padding: 1rem 1.2rem;
+        background-color: rgb(154, 240, 233)!important;
+        color: rgb(15, 15, 15)!important;
+        margin-left: 5px;
+        padding: 0.75rem;
+        transition: all 0.3s;
+    }
+    
+    .Transaction:hover {
+        background-color: rgba(248, 246, 246, 0) !important;
+        color: rgb(72, 233, 219)!important;
+    }
+    
+    .heading {
+        margin-top: 0%;
+        text-align: center;
+    }
+    
+    tr,
+    th {
+        height: 50px;
+        border: 1px;
+    }
+    
+    table {
+        border: 1px;
+        border-collapse: collapse;
+        margin-top: 5%;
+        margin-left: 290px;
+        text-align: center;
+        background-color: #0066cc;
+        color: whitesmoke;
+    }
